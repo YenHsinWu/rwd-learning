@@ -128,6 +128,12 @@ table {
   border-spacing: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .wrap {
   max-width: 1000px;
   margin: 0 auto;
@@ -200,8 +206,10 @@ table {
 }
 
 .navbar li a {
+  display: block;
   color: #00cc99;
   font-size: 16px;
+  text-align: center;
   text-decoration: none;
   padding: 8px 8px;
 }
@@ -243,4 +251,38 @@ table {
   font-size: 14px;
   line-height: 1.4;
   margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar .logo {
+    margin-bottom: 26px;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navbar li {
+    width: 50%;
+  }
+
+  .course {
+    flex-direction: column;
+  }
+
+  .course-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .course-item img {
+    width: 75%;
+  }
 }
