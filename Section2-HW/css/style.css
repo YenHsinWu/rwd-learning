@@ -129,7 +129,7 @@ table {
 }
 
 .wrap {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -178,7 +178,10 @@ table {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
   padding: 8px 8px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
 }
 
 .navbar .logo {
@@ -190,4 +193,19 @@ table {
   text-indent: 101%;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li a {
+  color: #00cc99;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px 8px;
+}
+
+.navbar li a:hover {
+  border-bottom: 4px solid #00cc99;
 }
