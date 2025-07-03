@@ -209,3 +209,38 @@ table {
 .navbar li a:hover {
   border-bottom: 4px solid #00cc99;
 }
+
+.course {
+  display: flex;
+  justify-content: space-around;
+}
+
+.course-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.15);
+}
+
+.course-item h2 {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.course-item p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.course-item li {
+  list-style: disc;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-left: 20px;
+}
