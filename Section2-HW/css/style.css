@@ -174,3 +174,20 @@ table {
   background-color: #00aaec;
   color: white;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px;
+}
+
+.navbar .logo {
+  display: block;
+  background-image: url("../images/logo.png");
+  width: 170px;
+  height: 36px;
+  /* Replace anchor text with image */
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
