@@ -240,7 +240,13 @@
     margin-left: 11px;
   }
 
+  .footer .about-title,
+  .footer .contact-title {
+    margin-top: 30px;
+  }
+
   .social-media .logo {
+    margin-top: 30px;
     margin-bottom: 22px;
     margin-left: 102px;
   }
