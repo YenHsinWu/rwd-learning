@@ -1,0 +1,107 @@
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #efe9e7;
+}
+
+.content-title {
+  color: #3d1101;
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.content-description {
+  color: #3d1101;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+
+.form-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 620px;
+  border-top: 3px solid #ff5e45;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.register-form h3 {
+  color: #3d1101;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+}
+
+.term {
+  color: #3d1101;
+  font-size: 18px;
+  width: 285px;
+  margin-left: 15px;
+}
+
+.term span {
+  font-size: 14px;
+}
+
+.form-body label {
+  color: #3d1101;
+  margin-left: 15px;
+}
+
+.form-body i {
+  position: absolute;
+  color: #3d1101;
+  opacity: 50%;
+  margin-top: 13px;
+  margin-left: 24px;
+}
+
+#email,
+#password,
+#password-again {
+  width: 285px;
+  height: 32px;
+  margin-left: 15px;
+  margin-top: 3px;
+  border: 1px solid #cccccc;
+  box-shadow: inset 0px 1px 0px 0px #ececec;
+  border-radius: 3px;
+}
+
+#email {
+  margin-bottom: 15px;
+}
+
+#password {
+  margin-bottom: 12px;
+}
+
+.redirect-login {
+  color: #ff5e45;
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+#register {
+  background: #f56c23;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  width: 125px;
+  height: 32px;
+  margin-top: 49px;
+  margin-bottom: 15px;
+  margin-left: 178px;
+}
