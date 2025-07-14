@@ -77,17 +77,16 @@
 
 .register-link {
   display: inline-block;
-  text-decoration: none;
-}
-
-.register {
   background: rgba(0, 0, 0, 0.35);
   color: white;
   font-size: 14px;
+  text-align: center;
+  line-height: 32px;
+  text-decoration: none;
   border: none;
-  border-radius: 3px;
   width: 125px;
   height: 32px;
+  border-radius: 3px;
   margin-top: 30px;
   margin-bottom: 15px;
   margin-left: 15px;

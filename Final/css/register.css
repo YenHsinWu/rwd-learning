@@ -104,4 +104,19 @@
   margin-top: 49px;
   margin-bottom: 15px;
   margin-left: 178px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .form-body {
+    width: 300px;
+  }
+
+  .entry {
+    flex-direction: column;
+  }
+
+  .term {
+    margin: 10px 15px;
+  }
 }
