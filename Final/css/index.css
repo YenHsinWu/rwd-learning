@@ -1,0 +1,53 @@
+.tips {
+  display: flex;
+  flex-direction: column;
+  background-color: #efe9e7;
+}
+
+.tips-header {
+  display: flex;
+  justify-content: center;
+}
+
+.tips-box {
+  border-top: 1px solid #979797;
+  margin: 82px 13px 0 13px;
+  padding: 0 80px;
+}
+
+.tips-description {
+  color: #3d1101;
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: 50px;
+  margin-bottom: 31px;
+}
+
+.tips-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.tip img {
+  border-radius: 100px;
+}
+
+.tip-title {
+  color: #3d1101;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 11px;
+}
+
+.tip-content {
+  color: #3d1101;
+  font-size: 18px;
+}
