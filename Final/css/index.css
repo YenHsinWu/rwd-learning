@@ -170,3 +170,84 @@
     margin: 16px 30px 30px 30px;
   }
 }
+
+.comments-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #efe9e7;
+  color: #3d1101;
+}
+
+.comments-title {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 42px 50px 42px;
+}
+
+.single-comment {
+  display: flex;
+}
+
+.avatar img {
+  border-radius: 34px;
+}
+
+.comment .person-name {
+  font-size: 18px;
+  margin-top: 24px;
+  margin-left: 13px;
+}
+
+.comment .comment-content {
+  font-size: 16px;
+  width: 220px;
+  margin-top: 22px;
+  margin-left: 13px;
+}
+
+.comment .person-title {
+  opacity: 75%;
+  width: 220px;
+  text-align: right;
+  margin-top: 16px;
+  margin-left: 13px;
+}
+
+@media (max-width: 768px) {
+  .comments {
+    margin: 32px 10px 53px 10px;
+  }
+
+  .comment .comment-content {
+    width: 155px;
+  }
+
+  .comment .person-title {
+    width: 155px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .comments {
+    flex-direction: column;
+    margin: 32px 10px 57px 10px;
+  }
+
+  .comment .comment-content {
+    font-size: 18px;
+    width: 260px;
+  }
+
+  .comment .person-title {
+    font-size: 18px;
+    width: 260px;
+    margin-left: 0;
+  }
+}
