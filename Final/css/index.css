@@ -251,3 +251,97 @@
     margin-left: 0;
   }
 }
+
+.reservation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.reservation .reservation-title {
+  color: #3d1101;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.4;
+  margin-top: 50px;
+  margin-bottom: 38px;
+}
+
+.reserve-info {
+  display: flex;
+}
+
+.reserve-info img {
+  margin-bottom: 50px;
+  margin-left: 42px;
+  margin-right: 20px;
+}
+
+.reserve-info label,
+.reserve-info p {
+  color: #3d1101;
+  font-size: 14px;
+}
+
+#reserve-name,
+#reserve-tel,
+#reserve-email,
+#reserve-num {
+  width: 460px;
+  height: 32px;
+  margin-top: 6px;
+}
+
+#reserve-name,
+#reserve-tel,
+#reserve-email {
+  margin-bottom: 17px;
+}
+
+#reserve-num {
+  margin-bottom: 12px;
+}
+
+.reserve-info .veg-label {
+  display: inline-flex;
+  align-items: center;
+}
+
+#label-no {
+  margin-left: 36px;
+}
+
+.reserve-info .reserve-veg {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+#cancel {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 32px;
+  text-decoration: none;
+  border: none;
+  width: 70px;
+  height: 32px;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-left: 308px;
+}
+
+#confirm {
+  background: #f56c23;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  width: 70px;
+  height: 32px;
+  margin-left: 7px;
+}

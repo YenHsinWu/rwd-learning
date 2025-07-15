@@ -194,6 +194,71 @@
         </div>
       </div>
 
+      <div class="reservation">
+        <h2 class="reservation-title">
+          我們的位置不太夠坐<br />要不要先定位呢？
+        </h2>
+
+        <div class="reserve-info">
+          <img src="./assets/Map.png" alt="Location" />
+
+          <form action="index.html" method="GET">
+            <label for="reserve-name">姓名</label><br />
+            <input
+              type="text"
+              name="reserve-name"
+              id="reserve-name"
+              placeholder="六角講師吃尾牙"
+            /><br />
+
+            <label for="reserve-tel">電話</label><br />
+            <input
+              type="tel"
+              name="reserve-tel"
+              id="reserve-tel"
+              placeholder="02-1234567"
+            /><br />
+
+            <label for="reserve-email">信箱</label><br />
+            <input
+              type="email"
+              name="reserve-email"
+              id="reserve-email"
+              placeholder="test@gmail.com"
+            /><br />
+
+            <label for="reserve-num">人數</label><br />
+            <input type="number" name="reserve-num" id="reserve-num" /><br />
+
+            <p>是否需要素食</p>
+            <label for="y" class="veg-label" id="label-yes">
+              是
+              <input
+                type="radio"
+                class="reserve-veg"
+                name="reserve-veg"
+                id="y"
+                value="yes"
+              />
+            </label>
+
+            <label for="n" class="veg-label" id="label-no">
+              否
+              <input
+                type="radio"
+                class="reserve-veg"
+                name="reserve-veg"
+                id="n"
+                value="no"
+              />
+            </label>
+
+            <a href="" id="cancel">取消</a>
+            <input type="submit" name="comfirm" id="confirm" value="送出" />
+          </form>
+        </div>
+      </div>
+
       <div class="footer">
         <div class="about">
           <h3 class="about-title">關於 六角西餐廳</h3>
