@@ -345,3 +345,60 @@
   height: 32px;
   margin-left: 7px;
 }
+
+@media (max-width: 768px) {
+  .reserve-info img {
+    width: 368px;
+    height: 386px;
+    object-fit: cover;
+    object-position: -10% center;
+    margin-left: 11px;
+  }
+
+  #reserve-name,
+  #reserve-tel,
+  #reserve-email,
+  #reserve-num {
+    width: 363px;
+  }
+
+  #cancel {
+    margin-left: 213px;
+  }
+}
+
+@media (max-width: 375px) {
+  .reserve-info {
+    max-width: 375px;
+    flex-direction: column;
+  }
+
+  .reserve-info img {
+    width: 353px;
+    height: 386px;
+    object-fit: cover;
+    margin-left: 7px;
+  }
+
+  .reserve-info label,
+  .reserve-info p {
+    margin-left: 15px;
+  }
+
+  #reserve-name,
+  #reserve-tel,
+  #reserve-email,
+  #reserve-num {
+    width: 344px;
+    margin-left: 15px;
+  }
+
+  #cancel {
+    margin-left: 203px;
+  }
+
+  #cancel,
+  #confirm {
+    margin-bottom: 50px;
+  }
+}
